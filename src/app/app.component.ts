@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'VegyesBoltWebshop';
+  kategoria:any;
+  
+  kategoriaValtas(kategoria:any){
+    this.kategoria=kategoria;
+  }
 }
